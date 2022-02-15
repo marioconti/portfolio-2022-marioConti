@@ -7,9 +7,8 @@ export const Tecnologias = () => {
   return (
     <>
       <div id="habilidades" className="titulo-section">
-        {" "}
         <div className="titulo-section-habilidades">
-          <p>HABILIDADES</p>
+          <p>Tecnologías</p>
         </div>
       </div>
       <div className="section-habilidades">
@@ -22,31 +21,27 @@ export const Tecnologias = () => {
 const ListadoHabilidades = () => {
   const listadoDeHabilidades = listaHabilidades.map((svg) => {
     return (
-      <>
+      <div className="listado-tecnologias" key={svg.nameHabilidad}>
         <CardHabilidad
           nameHabilidad={svg.nameHabilidad}
           imagenHabilidad={svg.imagenHabilidad}
-          textoDescriptivo={svg.textoDescriptivo}
         />
-      </>
+      </div>
     );
   });
   return listadoDeHabilidades;
 };
 
-const CardHabilidad = (props) => {
+const CardHabilidad = ({ imagenHabilidad, nameHabilidad }) => {
   return (
     <>
       <div className="contenedor-svg">
         <img
           className="image-habilidad"
-          src={props.imagenHabilidad}
-          alt={props.nameHabildad}
+          src={imagenHabilidad}
+          alt={nameHabilidad}
+          title={nameHabilidad}
         />
-        <div className="text-descriptivo">
-          {" "}
-          <p>{props.textoDescriptivo}</p>
-        </div>
       </div>
     </>
   );

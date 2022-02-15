@@ -1,19 +1,19 @@
 /* SECTION HEADER */
 .section-header {
   align-items: center;
-  background-color: #f4f4f4;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-  color: #585353;
+  background-color: #252525;
+  box-shadow: 0 6px 10px 0 rgba(146, 146, 146, 0.116);
   display: flex;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
   font-size: 1.2em;
-  height: 4.5rem;
+  height: 3.8rem;
   justify-content: space-between;
   position: fixed;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
   width: 100%;
   z-index: 10;
-  transition: all 0.3s ease-in-out;
 }
 
 .active {
@@ -31,12 +31,13 @@
 
 .nav-sections {
   display: flex;
+  padding-top: 3px;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
 
 .link-section {
-  color: #252525;
+  color: rgb(212, 212, 212);
   margin: 0 1.5rem;
   outline: none;
   text-decoration: none;

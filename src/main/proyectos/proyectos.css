@@ -9,28 +9,15 @@
 }
 
 .carousel-proyectos-container h2 {
+  border-bottom: 3px solid #f5af31;
   color: #fff;
   font-family: "Oswald", sans-serif;
   text-align: left;
-  border-bottom: 3px solid #f5af31;
 }
 
 .card-container {
   height: 450px;
   width: 100%;
-}
-
-.nombre-proyecto {
-  color: #fff;
-  display: inline-block;
-  font-size: 2.3em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 800;
-  letter-spacing: 2px;
-  margin-top: 2rem;
-  text-decoration: none;
-  text-align: right;
-  width: 27rem;
 }
 
 .imagenes-proyecto {
@@ -41,12 +28,70 @@
 .image-desktop {
   height: 400px;
   object-fit: cover;
+  filter: drop-shadow(0px 0px 10px #5e5e5e);
 }
 
 .image-mobile {
-  height: 200px;
-  object-fit: cover;
-  position: absolute;
   bottom: 70px;
+  height: 200px;
   left: 320px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.info-proyecto {
+  margin-left: auto;
+}
+
+.nombre-proyecto {
+  color: #fff;
+  display: inline-block;
+  font-size: 2.3em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  margin-top: 2rem;
+  text-decoration: none;
+  text-align: right;
+  width: 27rem;
+}
+
+.descripcion-proyecto {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4em;
+  font-weight: lighter;
+  text-align: right;
+  margin-left: auto;
+  margin-top: 15px;
+  width: 300px;
+}
+
+.link-proyecto {
+  background-image: linear-gradient(to right, #747cff 50%, #f5af31 50%);
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  height: 50px;
+  line-height: 2em;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  width: 200px;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  line-height: 3.2em;
+  text-align: center;
+  transition: background-position 0.3s ease;
+  transition: 0.3s ease-in-out all;
+  z-index: 10;
+}
+
+.link-proyecto:hover {
+  background-position: right;
+  color: #2e2c31;
+  padding-right: 2rem;
 }

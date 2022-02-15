@@ -14,9 +14,7 @@ export const Conoceme = () => {
           />
           <div className="texto-descripcion">
             <h3>Hola, soy</h3>
-            {/*h1 esto con otro color */}
             <h1>Mario Conti</h1>
-            {/* h2 frontend - con span? alguna decoración? */}
             <h2>
               DESARROLLADOR WEB <span>FRONTEND </span>{" "}
             </h2>
@@ -26,14 +24,14 @@ export const Conoceme = () => {
                 className="boton-link bg-btn-1"
                 href="../#conoceme"
               >
-                Conóceme {">"}
+                Conóceme
               </a>
               <a
                 id="contactame"
                 className="boton-link bg-btn-2 btn-text"
                 href="../#contacto"
               >
-                Contáctame {">"}
+                Contáctame
               </a>
             </div>
           </div>
