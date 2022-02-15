@@ -1,0 +1,116 @@
+.section-descripcion {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(12, 22, 53, 0.74);
+  height: 42rem;
+  position: relative;
+  user-select: none;
+  width: 100%;
+}
+
+.imagen-fondo {
+  filter: blur(2px);
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  object-fit: cover;
+  padding: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+.texto-descripcion {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05em;
+  margin-right: 27rem;
+  width: 40rem;
+}
+
+.texto-descripcion h1,
+.texto-descripcion h2,
+.texto-descripcion h3 {
+  margin: 0;
+}
+
+.texto-descripcion h1 {
+  color: #f5af31;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  font-size: 6em;
+  line-height: 1.2em;
+}
+
+.texto-descripcion h2,
+.texto-descripcion h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.texto-descripcion h2 {
+  font-size: 2.7em;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.texto-descripcion h2 span {
+  font-weight: 800;
+}
+
+.texto-descripcion h3 {
+  font-weight: 200;
+  font-size: 1.9em;
+  margin-top: 14rem;
+}
+
+.links-personal {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 30rem;
+}
+
+.boton-link {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4em;
+  height: 3.5rem;
+  letter-spacing: 2px;
+  padding-left: 2rem;
+  text-decoration: none;
+  width: 50%;
+  line-height: 10px;
+}
+
+.bg-btn-1 {
+  background-image: linear-gradient(to right, #f5af31 50%, #2e2c31 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  line-height: 2.5em;
+  transition: background-position 0.3s ease;
+  transition: 0.4s ease-in-out all;
+}
+
+.bg-btn-1:hover {
+  background-position: right;
+  padding-left: 3rem;
+}
+
+.bg-btn-2 {
+  background-image: linear-gradient(to right, #747cff 50%, #f5af31 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  line-height: 2.5em;
+  transition: background-position 0.3s ease;
+  transition: 0.4s ease-in-out all;
+}
+
+.bg-btn-2:hover {
+  background-position: right;
+  color: #2e2c31;
+  padding-left: 3rem;
+}
+

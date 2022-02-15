@@ -1,0 +1,52 @@
+@media screen and (max-width: 899px) {
+  .section-header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+    padding: 0 1rem;
+  }
+
+  .nav-sections {
+    display: none;
+  }
+
+  .logo {
+    margin: 2rem 0;
+  }
+
+  .logo p {
+    margin: 0;
+    height: 4rem;
+    padding-top: 0.7rem;
+    border: 3px solid #1f1f1f;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  /* MENU HAMBURGUESA */
+
+  .navbar-mobile {
+    display: block;
+  }
+
+  .nav-menu-mobile {
+    width: 0%;
+  }
+
+  #hamburguesa:checked ~ .nav-menu-mobile {
+    width: 100%;
+  }
+
+  .link-section {
+    font-size: 22px;
+    margin: 1.3rem 0;
+  }
+
+  .link-section:nth-child(1) {
+    font-size: 24px;
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+  /* ============================================== */
+}

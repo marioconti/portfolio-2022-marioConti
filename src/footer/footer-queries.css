@@ -1,0 +1,34 @@
+@media screen and (max-width: 899px) {
+  /* SECCION FOOTER */
+
+  .section-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* //================================================== */
+  /* INFO DE CONTACTO */
+  .info-contacto {
+    width: auto;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  /* //================================================== */
+  /* SVGS */
+
+  .contenedor-svgs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem 4rem;
+  }
+
+  .svgFooter {
+    margin: 0 1rem;
+  }
+  /* //================================================== */
+}

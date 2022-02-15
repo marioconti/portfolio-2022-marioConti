@@ -1,0 +1,44 @@
+/* CONTENEDOR PRINCIPAL */
+.section-habilidades {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 7rem;
+  /* background-image: url(../../images/css.png); */
+}
+.titulo-section-habilidades {
+  font-family: "Poppins", sans-serif;
+  margin-top: 4rem;
+}
+/* //================================================== */
+/* CONTENEDOR DE SVGs */
+.contenedor-svg {
+  width: 30%;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* //================================================== */
+
+/* IMAGEN SVG */
+.image-habilidad {
+  width: 7rem;
+}
+/* TODO:sumar animacion como de zoom algo entretenido */
+/* //================================================== */
+/* ANIMACION SVG */
+
+/* //================================================== */
+/* TXT DESCRIPTIVO */
+.text-descriptivo {
+  width: 18rem;
+  margin-left: 1.9rem;
+  margin-top: 1rem;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 1.7;
+}

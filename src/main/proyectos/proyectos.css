@@ -1,0 +1,52 @@
+.proyectos-container {
+  background-color: #2a2a2a;
+}
+
+.carousel-proyectos-container {
+  height: 600px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.carousel-proyectos-container h2 {
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  border-bottom: 3px solid #f5af31;
+}
+
+.card-container {
+  height: 450px;
+  width: 100%;
+}
+
+.nombre-proyecto {
+  color: #fff;
+  display: inline-block;
+  font-size: 2.3em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  text-decoration: none;
+  text-align: right;
+  width: 27rem;
+}
+
+.imagenes-proyecto {
+  display: flex;
+  position: relative;
+}
+
+.image-desktop {
+  height: 400px;
+  object-fit: cover;
+}
+
+.image-mobile {
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 70px;
+  left: 320px;
+}
