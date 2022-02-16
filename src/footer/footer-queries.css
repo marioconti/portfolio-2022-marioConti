@@ -8,13 +8,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 42rem;
   }
   /* //================================================== */
   /* INFO DE CONTACTO */
   .info-contacto {
     width: auto;
     margin-left: 0;
-    margin-top: 2rem;
+    margin-top: 0rem;
+    width: 85%;
+    margin-bottom: 0rem;
   }
   /* //================================================== */
   /* SVGS */

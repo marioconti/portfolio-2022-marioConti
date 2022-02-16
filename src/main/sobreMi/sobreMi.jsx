@@ -1,9 +1,10 @@
 import React from "react";
 import "./sobreMi.css";
+import "./sobreMiQueries.css";
 export const SobreMi = () => {
   return (
     <div className="sobre-mi-main">
-      <div  id="conoceme" className="sobre-mi-container">
+      <div id="conoceme" className="sobre-mi-container">
         <div className="mask-background"></div>
         <div className="mask-1"></div>
         <div className="mask-4"></div>

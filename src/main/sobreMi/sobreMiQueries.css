@@ -1,0 +1,70 @@
+@media screen and (max-width: 899px) {
+  .sobre-mi-main {
+    height: 900px;
+  }
+  .sobre-mi-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  .imagen-mario {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .imagen-perfil {
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .texto-presentación {
+    width: 100%;
+  }
+
+  .texto-presentación p {
+    font-size: 1.1em;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  /* puntitos */
+  .mask-4 {
+    height: 200px;
+    background-size: 28px 28px;
+    left: -35px;
+    top: -26px;
+    width: 100%;
+  }
+
+  /* 3d mask */
+  .mask-background {
+    display: none;
+  }
+
+  .mask-1 {
+    height: 100px;
+    width: 140px;
+    bottom: 0;
+    left: 100px;
+  }
+
+  .mask-2 {
+    height: 200px;
+    bottom: -40px;
+  }
+
+  .mask-3 {
+    height: 100px;
+    top: 320px;
+    width: 120px;
+  }
+
+  .mask-5 {
+    top: 250px;
+    right: 20px;
+    width: 150px;
+  }
+}

@@ -10,19 +10,19 @@
   }
 
   .texto-descripcion h1 {
-    font-size: 5em;
+    font-size: 3.95em;
     line-height: 1.2em;
   }
 
   .texto-descripcion h2 {
-    font-size: 2.3em;
+    font-size: 1.9em;
     font-weight: 100;
     margin-top: 1rem;
   }
 
   .texto-descripcion h3 {
     font-weight: 200;
-    font-size: 1.9em;
+    font-size: 1.5em;
     margin-top: 5.5rem;
   }
 
