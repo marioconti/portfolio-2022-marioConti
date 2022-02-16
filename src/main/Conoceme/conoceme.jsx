@@ -1,11 +1,12 @@
 import React from "react";
 import "./conoceme.css";
 import "./conoceme-queries.css";
+import { Link } from "react-scroll";
 
 export const Conoceme = () => {
   return (
     <>
-      <div id="conoceme" className="section-conoceme">
+      <div id="home" className="section-conoceme">
         <div className="section-descripcion">
           <img
             className="imagen-fondo"
@@ -19,20 +20,26 @@ export const Conoceme = () => {
               DESARROLLADOR WEB <span>FRONTEND </span>{" "}
             </h2>
             <div className="links-personal">
-              <a
-                id="conoceme"
+              <Link
+                to="conoceme"
+                spy={true}
+                smooth={true}
+                offset={-30}
+                duration={1000}
                 className="boton-link bg-btn-1"
-                href="conoceme"
               >
                 Conóceme
-              </a>
-              <a
-                id="contactame"
+              </Link>
+              <Link
+                to="contacto"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
                 className="boton-link bg-btn-2 btn-text"
-                href="#contacto"
               >
-                Contáctame
-              </a>
+                Contactáme
+              </Link>
             </div>
           </div>
         </div>

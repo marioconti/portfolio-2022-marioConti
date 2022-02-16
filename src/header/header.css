@@ -26,7 +26,7 @@
 /* LOGO */
 
 .logo {
-  color: #f5af31;
+  color: #08ce66;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 1.5em;
@@ -51,14 +51,16 @@
 
 .link-section {
   color: rgb(212, 212, 212);
+  cursor: pointer;
   margin: 0 1.5rem;
   outline: none;
   text-decoration: none;
+  scroll-behavior: inherit;
 }
 
 /* ANIMATION UNDERLINE */
 .link-section:after {
-  background: #747cff;
+  background: #08ce66;
   border-radius: 5px;
   content: "";
   display: flex;

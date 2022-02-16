@@ -4,7 +4,7 @@ import "./proyectos-queries.css";
 import SimpleSlider from "./carousel";
 export const Proyectos = () => {
   return (
-    <div className="proyectos-container">
+    <div id="portfolio" className="proyectos-container">
       <SimpleSlider />
     </div>
   );

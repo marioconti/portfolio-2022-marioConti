@@ -35,7 +35,7 @@
 }
 
 .texto-descripcion h1 {
-  color: #f5af31;
+  color: #08ce66;
   font-family: "Oswald", sans-serif;
   font-weight: 800;
   font-size: 6em;
@@ -73,6 +73,7 @@
 
 .boton-link {
   color: #fff;
+  cursor: pointer;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 1.4em;
@@ -85,10 +86,11 @@
 }
 
 .bg-btn-1 {
-  background-image: linear-gradient(to right, #f5af31 50%, #2e2c31 50%);
+  background-image: linear-gradient(to right, #08ce66 50%, #2e2c31 50%);
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: left;
+  color: #2e2c31;
   line-height: 2.5em;
   transition: background-position 0.3s ease;
   transition: 0.4s ease-in-out all;
@@ -96,11 +98,12 @@
 
 .bg-btn-1:hover {
   background-position: right;
+  color: #08ce66;
   padding-left: 3rem;
 }
 
 .bg-btn-2 {
-  background-image: linear-gradient(to right, #747cff 50%, #f5af31 50%);
+  background-image: linear-gradient(to right, #2e2c31 50%, #08ce66 50%);
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: left;
@@ -111,6 +114,5 @@
 
 .bg-btn-2:hover {
   background-position: right;
-  color: #2e2c31;
   padding-left: 3rem;
 }

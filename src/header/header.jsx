@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./header.css";
 import "./header-queries.css";
 
@@ -23,23 +24,58 @@ export const Header = () => {
   window.addEventListener("scroll", fixNav);
   return (
     <>
-      <div id="header" className={`section-header ${navClass}`}>
-        <a href="#header" className={`logo ${navClassB}`}>
+      <div className={`section-header ${navClass}`}>
+        <Link
+          to="/"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={1000}
+          className={`logo ${navClassB}`}
+        >
           M.
-        </a>
+        </Link>
         <div className={`nav-sections ${navClassB}`}>
-          <a href="#conoceme" className={`link-section ${navClassB}`}>
+          <Link
+            to="conoceme"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            duration={1000}
+            className={`link-section ${navClassB}`}
+          >
             Conóceme
-          </a>
-          <a href="#proyectos" className={`link-section ${navClassB}`}>
+          </Link>
+          <Link
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={10}
+            duration={1000}
+            className={`link-section ${navClassB}`}
+          >
             Proyectos
-          </a>
-          <a href="#habilidades" className={`link-section ${navClassB}`}>
+          </Link>
+          <Link
+            to="habilidades"
+            spy={true}
+            smooth={true}
+            offset={20}
+            duration={1000}
+            className={`link-section ${navClassB}`}
+          >
             Habilidades
-          </a>
-          <a href="#contacto" className={`link-section ${navClassB}`}>
+          </Link>
+          <Link
+            to="contacto"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1000}
+            className={`link-section ${navClassB}`}
+          >
             Contactáme
-          </a>
+          </Link>
         </div>
 
         <div className="navbar-mobile">

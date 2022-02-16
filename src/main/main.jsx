@@ -3,6 +3,7 @@ import "./main.css";
 import { Conoceme } from "./Conoceme/conoceme";
 import { Proyectos } from "./proyectos/proyectos";
 import { Tecnologias } from "./Habilidades/habilidades";
+import { SobreMi } from "./sobreMi/sobreMi";
 
 export const Main = () => {
   return (
@@ -11,6 +12,7 @@ export const Main = () => {
         <Conoceme />
         <Proyectos />
         <Tecnologias />
+        <SobreMi/>
       </div>
     </>
   );

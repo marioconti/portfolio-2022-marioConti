@@ -6,13 +6,12 @@ import { listaHabilidades } from "./arrayHabilidades";
 export const Tecnologias = () => {
   return (
     <>
-      <div id="habilidades" className="titulo-section">
-        <div className="titulo-section-habilidades">
-          <p>Tecnologías</p>
+      <div id="habilidades" className="container-section-habilidades">
+        <div className="mask-habilidades-1"></div>
+        <p>Tecnologías</p>
+        <div className="section-habilidades">
+          <ListadoHabilidades />
         </div>
-      </div>
-      <div className="section-habilidades">
-        <ListadoHabilidades />
       </div>
     </>
   );

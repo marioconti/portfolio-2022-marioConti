@@ -8,7 +8,7 @@ export const Footer = () => {
     <>
       <div id="contacto" className="section-footer">
         <div className="info-contacto">
-          <h2>Contáctame</h2>
+          <h2>Contacto</h2>
           <p>
             <span>Ubicación:</span> San Miguel de Tucumán, Argentina
           </p>

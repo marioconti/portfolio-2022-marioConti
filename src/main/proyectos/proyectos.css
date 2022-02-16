@@ -9,7 +9,7 @@
 }
 
 .carousel-proyectos-container h2 {
-  border-bottom: 3px solid #f5af31;
+  border-bottom: 3px solid #08ce66;
   color: #fff;
   font-family: "Oswald", sans-serif;
   text-align: left;
@@ -67,9 +67,9 @@
 }
 
 .link-proyecto {
-  background-image: linear-gradient(to right, #747cff 50%, #f5af31 50%);
   bottom: 0;
-  color: #fff;
+  color: #2e2c31;
+  background-color: #08ce66;
   cursor: pointer;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.1em;
@@ -85,13 +85,11 @@
   background-position: left;
   line-height: 3.2em;
   text-align: center;
-  transition: background-position 0.3s ease;
   transition: 0.3s ease-in-out all;
   z-index: 10;
 }
 
 .link-proyecto:hover {
-  background-position: right;
-  color: #2e2c31;
+  color: #fff;
   padding-right: 2rem;
 }

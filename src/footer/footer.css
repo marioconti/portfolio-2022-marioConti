@@ -9,16 +9,15 @@
   display: flex;
   font-family: "Montserrat", sans-serif;
   justify-content: space-evenly;
-  height: 35rem;
+  height: 42rem;
   width: 100%;
 }
 
 /* //================================================== */
 
 .info-contacto {
-  margin-bottom: 13rem;
+  margin-bottom: 16rem;
 }
-
 
 /* INFO DE CONTACTO */
 .info-contacto {
@@ -26,7 +25,7 @@
 }
 
 .info-contacto h2 {
-  border-bottom: 3px solid #f5af31;
+  border-bottom: 3px solid #08ce66;
   font-weight: bold;
 }
 
@@ -44,6 +43,7 @@
   align-items: center;
   display: flex;
   height: 4.5rem;
+  margin-bottom: 3rem;
   justify-content: space-evenly;
   width: 35%;
 }
