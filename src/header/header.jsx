@@ -7,6 +7,7 @@ import "./header-queries.css";
 export const Header = () => {
   const [navClass, setNavClass] = useState("");
   const [navClassB, setNavClassB] = useState("");
+  const [navClassC, setNavCLassC] =useState("")
 
   const fixNav = () => {
     const nav = document.querySelector(".section-header");
@@ -15,9 +16,11 @@ export const Header = () => {
       // sumar un estado para que aparezca un boton de back top cuando pase esto tmb
       setNavClass("active");
       setNavClassB("display-none");
+      setNavCLassC("display-block")
     } else {
       setNavClass("");
       setNavClassB("");
+      setNavCLassC("")
     }
   };
 
@@ -106,6 +109,9 @@ export const Header = () => {
           </div>
         </div>
       </div>
+      <Link to="home" spy={true} smooth={true} offset={-10} duration={1000}>
+        <img className={`icon-home ${navClassC}`} src="images/home.svg" alt="imagen casa" />
+      </Link>
     </>
   );
 };

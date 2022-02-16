@@ -12,9 +12,6 @@ export const Container = () => {
         <Header />
         <Main />
         <Footer />
-        <Link to="home" spy={true} smooth={true} offset={-10} duration={1000}>
-          <img className="icon-home" src="images/home.svg" alt="imagen casa" />
-        </Link>
       </div>
     </>
   );

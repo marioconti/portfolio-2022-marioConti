@@ -2,13 +2,3 @@
   width: 100%;
 }
 
-.icon-home {
-  bottom: 30px;
-  cursor: pointer;
-  height: 40px;
-  position: absolute;
-  position: fixed;
-  right: 40px;
-  width: 40px;
-  z-index: 100;
-}
