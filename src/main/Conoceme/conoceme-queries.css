@@ -38,6 +38,16 @@
     font-size: 1.2em;
     line-height: 3em;
   }
+  .bg-btn-1,
+  .bg-btn-2 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .bg-btn-1:hover,
+  .bg-btn-2:hover {
+    padding-left: 0rem;
+  }
 
   .bg-btn-1 {
     margin-right: 4rem;
