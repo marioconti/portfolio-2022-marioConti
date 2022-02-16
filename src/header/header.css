@@ -2,7 +2,6 @@
 .section-header {
   align-items: center;
   background-color: #252525;
-  box-shadow: 0 6px 10px 0 rgba(146, 146, 146, 0.116);
   display: flex;
   font-family: "Montserrat", sans-serif;
   font-weight: regular;
@@ -25,6 +24,20 @@
 }
 /* ========================================= */
 /* LOGO */
+
+.logo {
+  color: #f5af31;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-left: 3rem;
+  text-decoration: none;
+}
+
+.logo:hover {
+  filter: drop-shadow(0px 0px 7px #5e5e5e);
+}
 
 /* ========================================= */
 /* SECTIONS */

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import "./header.css";
 import "./header-queries.css";
@@ -22,22 +23,21 @@ export const Header = () => {
   window.addEventListener("scroll", fixNav);
   return (
     <>
-      <div className={`section-header ${navClass}`}>
-        <a href="#" className={`logo ${navClassB}`}></a>
+      <div id="header" className={`section-header ${navClass}`}>
+        <a href="#header" className={`logo ${navClassB}`}>
+          M.
+        </a>
         <div className={`nav-sections ${navClassB}`}>
-          <a href="#" className={`link-section ${navClassB}`}>
-            Inicio
-          </a>
-          <a href="../#conoceme" className={`link-section ${navClassB}`}>
+          <a href="#conoceme" className={`link-section ${navClassB}`}>
             Conóceme
           </a>
-          <a href="../#proyectos" className={`link-section ${navClassB}`}>
+          <a href="#proyectos" className={`link-section ${navClassB}`}>
             Proyectos
           </a>
-          <a href="../#habilidades" className={`link-section ${navClassB}`}>
+          <a href="#habilidades" className={`link-section ${navClassB}`}>
             Habilidades
           </a>
-          <a href="../#contacto" className={`link-section ${navClassB}`}>
+          <a href="#contacto" className={`link-section ${navClassB}`}>
             Contactáme
           </a>
         </div>

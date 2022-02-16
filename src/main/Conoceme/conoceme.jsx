@@ -22,14 +22,14 @@ export const Conoceme = () => {
               <a
                 id="conoceme"
                 className="boton-link bg-btn-1"
-                href="../#conoceme"
+                href="conoceme"
               >
                 Conóceme
               </a>
               <a
                 id="contactame"
                 className="boton-link bg-btn-2 btn-text"
-                href="../#contacto"
+                href="#contacto"
               >
                 Contáctame
               </a>
