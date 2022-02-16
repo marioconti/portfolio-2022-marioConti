@@ -68,24 +68,24 @@
 
 .link-proyecto {
   bottom: 0;
-  color: #2e2c31;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
   background-color: #08ce66;
+  color: #2e2c31;
   cursor: pointer;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.1em;
   font-weight: bold;
   height: 50px;
   line-height: 2em;
+  line-height: 3.2em;
   position: absolute;
   right: 0;
   text-decoration: none;
-  width: 200px;
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position: left;
-  line-height: 3.2em;
   text-align: center;
   transition: 0.3s ease-in-out all;
+  width: 200px;
   z-index: 10;
 }
 

@@ -1,0 +1,75 @@
+@media screen and (max-width: 899px) {
+  .carousel-proyectos-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .card-container {
+    height: 600px;
+  }
+
+  .slick-list {
+    height: 450px;
+  }
+
+  .imagenes-proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-desktop {
+    filter: drop-shadow(0px 0px 10px #5e5e5e);
+    height: 260px;
+    margin-top: 0;
+  }
+
+  .image-mobile {
+    bottom: 80px;
+    height: 100px;
+    left: 180px;
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .info-proyecto {
+    margin: 0 auto;
+  }
+
+  .nombre-proyecto {
+    font-size: 1.8em;
+    margin-top: -4rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .descripcion-proyecto {
+    display: none;
+  }
+
+  .link-proyecto {
+    bottom: 190px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #08ce66;
+    color: #2e2c31;
+    cursor: pointer;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 50px;
+    line-height: 2em;
+    line-height: 3.2em;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s ease-in-out all;
+    width: 200px;
+    z-index: 10;
+  }
+}

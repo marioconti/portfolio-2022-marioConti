@@ -1,7 +1,7 @@
 .section-descripcion {
+  background-color: rgba(12, 22, 53, 0.74);
   display: flex;
   justify-content: center;
-  background-color: rgba(12, 22, 53, 0.74);
   height: 42rem;
   position: relative;
   user-select: none;
@@ -52,6 +52,7 @@
   font-weight: 100;
   margin-top: 5px;
 }
+
 .texto-descripcion h2 span {
   font-weight: 800;
 }
