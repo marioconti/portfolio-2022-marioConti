@@ -1,6 +1,6 @@
 @media screen and (max-width: 899px) {
   .sobre-mi-main {
-    height: 900px;
+    height: 950px;
   }
   .sobre-mi-container {
     display: flex;
@@ -19,6 +19,7 @@
   }
 
   .texto-presentación {
+    margin-top: 25px;
     width: 100%;
   }
 

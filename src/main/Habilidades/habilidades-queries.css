@@ -8,22 +8,16 @@
     align-items: center;
     justify-content: center;
   }
-  .titulo-section-habilidades {
-    display: flex;
-    align-content: center;
-    justify-items: center;
+
+  .container-section-habilidades p {
+    margin: 20px auto;
+    margin-top: 4rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-align: center;
+    width: 85%;
   }
 
-  .titulo-section {
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0rem;
-    padding-left: 0;
-    text-align: center;
-    font-size: 2.8em;
-  }
   /* //================================================== */
 
   .contenedor-svg {
