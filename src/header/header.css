@@ -6,12 +6,20 @@
   font-family: "Montserrat", sans-serif;
   font-weight: regular;
   font-size: 1.2em;
-  height: 3.8rem;
+  height: 4rem;
   justify-content: space-between;
   position: fixed;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   width: 100%;
+  z-index: 10;
+}
+
+.contenedor-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 75%;
   z-index: 10;
 }
 
@@ -30,8 +38,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: 1.5em;
-  line-height: 1em;
-  margin-left: 3rem;
+  margin-right: 1.5rem;
   text-decoration: none;
 }
 
@@ -44,7 +51,6 @@
 
 .nav-sections {
   display: flex;
-  padding-top: 3px;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
@@ -52,7 +58,8 @@
 .link-section {
   color: #fff;
   cursor: pointer;
-  margin: 0 1.5rem;
+  margin-top: 8px;
+  padding: 0 1rem;
   outline: none;
   text-decoration: none;
   scroll-behavior: inherit;
@@ -64,7 +71,7 @@
   border-radius: 5px;
   content: "";
   display: flex;
-  height: 3px;
+  height: 2px;
   transform: scaleX(0);
   transition: 0.2s linear;
   visibility: hidden;

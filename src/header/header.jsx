@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import "./header.css";
 import "./header-queries.css";
+import { MenuHamburguesa } from "./menuHamburguesa";
+import { MenuHeader } from "./menuHeader";
 
 export const Header = () => {
   const [navClass, setNavClass] = useState("");
@@ -49,71 +51,32 @@ export const Header = () => {
   return (
     <>
       <div className={`section-header ${navClass}`}>
-        <Link
-          to="/"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={1000}
-          className={`logo ${navClassB}`}
-        >
-          M.
-        </Link>
-        {hamburguesaActive ? (
-          <div
-            className={`container-hamburguesa ${navClassB}`}
-            onClick={() => setMenuActive(!menuActive)}
+        <div className="contenedor-nav">
+          <Link
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={1000}
+            className={`logo ${navClassB}`}
           >
-            <img
-              className="image-hamburguesa"
-              src="images/menu-hamburguesa.svg"
-              alt="menu-hamburguesa"
-            />
-          </div>
-        ) : (
-          <div className={`nav-sections ${navClassB}`}>
-            <Link
-              to="conoceme"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={1000}
-              className={`link-section ${navClassB}`}
+            M.
+          </Link>
+          {hamburguesaActive ? (
+            <div
+              className={`container-hamburguesa ${navClassB}`}
+              onClick={() => setMenuActive(!menuActive)}
             >
-              Conóceme
-            </Link>
-            <Link
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              offset={10}
-              duration={1000}
-              className={`link-section ${navClassB}`}
-            >
-              Proyectos
-            </Link>
-            <Link
-              to="habilidades"
-              spy={true}
-              smooth={true}
-              offset={20}
-              duration={1000}
-              className={`link-section ${navClassB}`}
-            >
-              Habilidades
-            </Link>
-            <Link
-              to="contacto"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={1000}
-              className={`link-section ${navClassB}`}
-            >
-              Contactáme
-            </Link>
-          </div>
-        )}
+              <img
+                className="image-hamburguesa"
+                src="images/menu-hamburguesa.svg"
+                alt="menu-hamburguesa"
+              />
+            </div>
+          ) : (
+            <MenuHeader navClassB={navClassB} />
+          )}
+        </div>{" "}
       </div>
       <Link to="home" spy={true} smooth={true} offset={-10} duration={1000}>
         <img
@@ -122,64 +85,7 @@ export const Header = () => {
           alt="imagen casa"
         />
       </Link>
-      {menuActive && (
-        <div className="menu-desplegable">
-          <div className="contenedor-links">
-            <Link
-              to="conoceme"
-              spy={true}
-              smooth={true}
-              offset={-30}
-              duration={1000}
-              className={`link-section margin`}
-              onClick={() => {
-                setMenuActive(false);
-              }}
-            >
-              Conóceme
-            </Link>
-            <Link
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              offset={10}
-              duration={1000}
-              className={`link-section margin`}
-              onClick={() => {
-                setMenuActive(false);
-              }}
-            >
-              Proyectos
-            </Link>
-            <Link
-              to="habilidades"
-              spy={true}
-              smooth={true}
-              offset={20}
-              duration={1000}
-              className={`link-section margin`}
-              onClick={() => {
-                setMenuActive(false);
-              }}
-            >
-              Habilidades
-            </Link>
-            <Link
-              to="contacto"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={1000}
-              className={`link-section margin`}
-              onClick={() => {
-                setMenuActive(false);
-              }}
-            >
-              Contactáme
-            </Link>
-          </div>
-        </div>
-      )}
+      {menuActive && <MenuHamburguesa setMenuActive={setMenuActive} />}
     </>
   );
 };

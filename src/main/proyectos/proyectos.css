@@ -5,17 +5,19 @@
 .carousel-proyectos-container {
   height: 600px;
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
 }
 
-.carousel-proyectos-container h2 {
+.carousel-proyectos-container .section-title {
   border-bottom: 3px solid #08ce66;
   color: #fff;
-  font-family: "Oswald", sans-serif;
-  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.5em;
 }
 
 .card-container {
+  display: flex;
   height: 450px;
   width: 100%;
 }
@@ -28,22 +30,27 @@
 .image-desktop {
   height: 400px;
   object-fit: cover;
-  filter: drop-shadow(0px 0px 10px #5e5e5e);
 }
 
 .image-mobile {
   bottom: 70px;
-  height: 200px;
-  left: 320px;
+  height: 180px;
+  left: -20px;
   position: absolute;
   object-fit: cover;
 }
 
 .info-proyecto {
   margin-left: auto;
+  position: relative;
+  width: 100%;
 }
 
 .nombre-proyecto {
+  width: 100%;
+}
+
+.nombre-proyecto .proyecto {
   color: #fff;
   display: inline-block;
   font-size: 2.3em;
@@ -52,18 +59,34 @@
   margin-top: 2rem;
   text-decoration: none;
   text-align: right;
-  width: 27rem;
+  width: 100%;
 }
 
 .descripcion-proyecto {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
-  font-weight: lighter;
+  font-size: 20px;
+  font-weight: 400;
   text-align: right;
   margin-left: auto;
-  margin-top: 15px;
-  width: 300px;
+  margin-top: auto;
+  width: 60%;
+}
+
+.descripcion-dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0cce67fb;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  height: 58px;
+  letter-spacing: 1px;
+  text-align: center;
+  right: 0;
+  bottom: 80px;
+  position: absolute;
 }
 
 .link-proyecto {
@@ -74,18 +97,17 @@
   background-color: #08ce66;
   color: #2e2c31;
   cursor: pointer;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
   font-weight: bold;
   height: 50px;
-  line-height: 2em;
-  line-height: 3.2em;
+  line-height: 3.4rem;
   position: absolute;
   right: 0;
   text-decoration: none;
   text-align: center;
   transition: 0.3s ease-in-out all;
-  width: 200px;
+  width: 60%;
   z-index: 10;
 }
 

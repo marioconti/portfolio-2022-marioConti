@@ -19,18 +19,21 @@
   z-index: -10;
 }
 
+.contenedor-texto-descripcion {
+  width: 75%;
+}
+
 .texto-descripcion {
   color: #fff;
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05em;
   margin-right: 27rem;
-  width: 40rem;
+  width: 43%;
 }
 
 .texto-descripcion h1,
-.texto-descripcion h2,
-.texto-descripcion h3 {
+.texto-descripcion h2 {
   margin: 0;
 }
 
@@ -40,10 +43,11 @@
   font-weight: 800;
   font-size: 6em;
   line-height: 1.2em;
+  margin-top: 13rem;
+  width: auto;
 }
 
-.texto-descripcion h2,
-.texto-descripcion h3 {
+.texto-descripcion h2 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -56,33 +60,26 @@
   font-weight: 800;
 }
 
-.texto-descripcion h3 {
-  font-weight: 200;
-  font-size: 1.9em;
-  margin-top: 14rem;
-}
-
 .links-personal {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
   height: 5rem;
-  width: 30rem;
+  width: 100%;
 }
 
 .boton-link {
   color: #fff;
   cursor: pointer;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.4em;
-  height: 3.5rem;
+  font-size: 19px;
+  height: 50px;
   letter-spacing: 2px;
-  padding-left: 2rem;
+  text-align: center;
   text-decoration: none;
   width: 50%;
-  line-height: 10px;
 }
 
 .bg-btn-1 {
@@ -98,8 +95,7 @@
 
 .bg-btn-1:hover {
   background-position: right;
-  color: #08ce66;
-  padding-left: 3rem;
+  color: #FFF;
 }
 
 .bg-btn-2 {
@@ -114,5 +110,4 @@
 
 .bg-btn-2:hover {
   background-position: right;
-  padding-left: 3rem;
 }

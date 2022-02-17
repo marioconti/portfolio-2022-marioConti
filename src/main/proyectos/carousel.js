@@ -35,7 +35,7 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="carousel-proyectos-container">
-        <h2>Portfolio</h2>
+        <h2 className="section-title">PORTFOLIO</h2>
         <Slider {...settings}>
           {arrayProyectos.map((proyectos) => {
             return (

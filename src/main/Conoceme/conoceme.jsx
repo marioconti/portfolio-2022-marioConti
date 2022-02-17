@@ -13,33 +13,34 @@ export const Conoceme = () => {
             src="/images/bg-img.jpg"
             alt="imagen-fondo"
           />
-          <div className="texto-descripcion">
-            <h3>Hola, soy</h3>
-            <h1>Mario Conti</h1>
-            <h2>
-              DESARROLLADOR WEB <span>FRONTEND </span>{" "}
-            </h2>
-            <div className="links-personal">
-              <Link
-                to="conoceme"
-                spy={true}
-                smooth={true}
-                offset={-30}
-                duration={1000}
-                className="boton-link bg-btn-1"
-              >
-                Conóceme
-              </Link>
-              <Link
-                to="contacto"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={1000}
-                className="boton-link bg-btn-2 btn-text"
-              >
-                Contactáme
-              </Link>
+          <div className="contenedor-texto-descripcion">
+            <div className="texto-descripcion">
+              <h1>Mario Conti</h1>
+              <h2>
+                DESARROLLADOR WEB <span>FRONTEND </span>{" "}
+              </h2>
+              <div className="links-personal">
+                <Link
+                  to="conoceme"
+                  spy={true}
+                  smooth={true}
+                  offset={-30}
+                  duration={1000}
+                  className="boton-link bg-btn-1"
+                >
+                  Conóceme
+                </Link>
+                <Link
+                  to="contacto"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={1000}
+                  className="boton-link bg-btn-2 btn-text"
+                >
+                  Contactáme
+                </Link>
+              </div>
             </div>
           </div>
         </div>
