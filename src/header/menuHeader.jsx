@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+// import { cv } from "../../public/assets/cv";
 
 export const MenuHeader = ({ navClassB }) => {
   return (
@@ -44,6 +45,13 @@ export const MenuHeader = ({ navClassB }) => {
       >
         CONTACTO
       </Link>
+      <a
+        download="CV Mario Conti"
+        href="/assets/CV Mario Conti.pdf"
+        className={`link-section ${navClassB}`}
+      >
+        CV
+      </a>
     </div>
   );
 };

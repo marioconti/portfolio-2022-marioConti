@@ -5,7 +5,7 @@ export const arrayProyectos = [
     imagenMobile: "images/gifos-mobile.png",
     name: "GIFOS",
     descripcionUno:
-      "Aplicación web para buscar Gifs (imagenes animadas) por medio de un filtro haciendo consumo de la API de Giphy.",
+      "Aplicación web para buscar Gifs (imágenes animadas) por medio de un filtro haciendo consumo de la API de Giphy.",
     descripcionDos: "REACT JS - HTML - CSS -JAVASCRIPT",
     link: "https://44rz6.csb.app/",
   },
@@ -15,7 +15,7 @@ export const arrayProyectos = [
     imagenMobile: "images/devunited-mobile.png",
     name: "DEVS UNITED",
     descripcionUno:
-      "Proyecto de una red social de programación. Cuenta con la posibilidad de hacer login con Google, dar y quitar likes, crear y eliminar mensajes.",
+      "Proyecto de una red social de programación. Cuenta con la posibilidad de registrarse con Google, dar y quitar likes, crear y eliminar mensajes.",
     descripcionDos: "REACT JS - HTML - CSS -JAVASCRIPT - FIREBASE",
     link: "https://heuristic-elion-ac8bb2.netlify.app/",
   },

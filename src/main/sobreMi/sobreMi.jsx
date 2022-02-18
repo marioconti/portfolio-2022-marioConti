@@ -36,8 +36,8 @@ export const SobreMi = () => {
             lenguajes.
             <br />
             <br />
-            Entres mis objetivos se encuentran: crecer como desarrollador
-            frontend, estar a la vanguardia en cuanto a practicas y tecnologías
+            Entre mis objetivos se encuentran: crecer como desarrollador
+            frontend, estar a la vanguardia en cuanto a prácticas y tecnologías;
             y disfrutar de lo que hago.
             <br />
             <br />

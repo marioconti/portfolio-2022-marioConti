@@ -9,7 +9,7 @@
 }
 
 .imagen-fondo {
-  clip-path: polygon(45% 0, 91% 0, 100% 100%, 68% 100%);
+  clip-path: polygon(42% 0, 89% 0, 100% 100%, 68% 100%);
   background-color: #00a78e;
   height: 100%;
   position: absolute;

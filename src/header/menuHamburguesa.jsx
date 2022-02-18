@@ -58,6 +58,13 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
         >
           CONTACTO
         </Link>
+        <a
+        download="CV Mario Conti"
+        href="/assets/CV Mario Conti.pdf"
+        className={`link-section margin`}
+      >
+        CV
+      </a>
       </div>
     </div>
   );
