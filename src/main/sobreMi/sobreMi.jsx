@@ -32,7 +32,7 @@ export const SobreMi = () => {
               {" "}
               React Js
             </span>{" "}
-            y día a día amplió mis conocimientos en otras teconologías y
+            y día a día amplío mis conocimientos en otras teconologías y
             lenguajes.
             <br />
             <br />
