@@ -1,5 +1,5 @@
 .section-descripcion {
-  background-color: rgba(12, 22, 53, 0.74);
+  /* background-color: rgb(255, 255, 255); */
   display: flex;
   justify-content: center;
   height: 42rem;
@@ -9,7 +9,8 @@
 }
 
 .imagen-fondo {
-  filter: blur(2px);
+  clip-path: polygon(45% 0, 91% 0, 100% 100%, 68% 100%);
+  background-color: #00a78e;
   height: 100%;
   position: absolute;
   margin: 0;
@@ -24,12 +25,12 @@
 }
 
 .texto-descripcion {
-  color: #fff;
+  color: #00a78e;
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05em;
   margin-right: 27rem;
-  width: 43%;
+  width: 50%;
 }
 
 .texto-descripcion h1,
@@ -38,12 +39,12 @@
 }
 
 .texto-descripcion h1 {
-  color: #08ce66;
-  font-family: "Oswald", sans-serif;
+  color: #2c3953;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
-  font-size: 6em;
+  font-size: 6.5em;
   line-height: 1.2em;
-  margin-top: 13rem;
+  margin-top: 8rem;
   width: auto;
 }
 
@@ -83,11 +84,11 @@
 }
 
 .bg-btn-1 {
-  background-image: linear-gradient(to right, #08ce66 50%, #2e2c31 50%);
+  background-image: linear-gradient(to right, #00a78e 50%, #fff 50%);
+  border: #00a78e solid 3px;
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: left;
-  color: #2e2c31;
   line-height: 2.5em;
   transition: background-position 0.3s ease;
   transition: 0.4s ease-in-out all;
@@ -95,14 +96,15 @@
 
 .bg-btn-1:hover {
   background-position: right;
-  color: #FFF;
+  color: #2c3953;
 }
 
 .bg-btn-2 {
-  background-image: linear-gradient(to right, #2e2c31 50%, #08ce66 50%);
+  background-image: linear-gradient(to right, #2c3953 50%, #fff 50%);
   background-size: 200%;
   background-repeat: no-repeat;
   background-position: left;
+  border: #2c3953 solid 3px;
   line-height: 2.5em;
   transition: background-position 0.3s ease;
   transition: 0.4s ease-in-out all;
@@ -110,4 +112,5 @@
 
 .bg-btn-2:hover {
   background-position: right;
+  color: #00a78e;
 }

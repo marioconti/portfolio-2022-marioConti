@@ -4,18 +4,15 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
-  .container-section-habilidades p {
-    margin: 20px auto;
-    margin-top: 4rem;
-    font-size: 3.2rem;
-    font-weight: 800;
+  .container-section-habilidades h2 {
+    font-size: 37px;
     text-align: center;
-    width: 85%;
+    width: 90%;
   }
 
   /* //================================================== */
@@ -23,5 +20,12 @@
   .contenedor-svg {
     width: 100%;
     margin-top: 3rem;
+  }
+  .image-habilidad {
+    margin: 0 30px;
+  }
+
+  .contenedor-svg h3 {
+    font-size: 25px;
   }
 }

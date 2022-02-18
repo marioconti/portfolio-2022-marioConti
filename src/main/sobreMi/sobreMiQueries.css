@@ -1,21 +1,33 @@
 @media screen and (max-width: 899px) {
   .sobre-mi-main {
-    height: 950px;
+    height: 73rem;
+    display: flex;
   }
   .sobre-mi-container {
-    display: flex;
     flex-direction: column;
     width: 85%;
+    justify-content: center;
+    align-items: center;
   }
 
   .imagen-mario {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19rem;
     margin: 0 auto;
+    width: 100%;
   }
 
   .imagen-perfil {
     height: 200px;
-    margin-top: 20px;
+    border-radius: 20px;
+    position: unset;
+    left: unset;
+  }
+
+  .fondo-imagen {
+    display: none;
   }
 
   .texto-presentación {
@@ -24,24 +36,21 @@
   }
 
   .texto-presentación h1 {
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 
   .texto-presentación p {
-    font-size: 1.1em;
-    font-weight: lighter;
-    margin-left: auto;
-    margin-top: 15px;
-    width: 100%;
+    font-size: 1.2em;
+    margin-top: 25px;
   }
 
   /* puntitos */
   .mask-4 {
     height: 200px;
     background-size: 28px 28px;
-    left: -35px;
-    top: -26px;
+    left: 0px;
+    top: 0px;
     width: 100%;
   }
 
@@ -59,18 +68,24 @@
 
   .mask-2 {
     height: 200px;
-    bottom: -40px;
+    bottom: 0px;
   }
 
   .mask-3 {
     height: 100px;
-    top: 320px;
+    top: 500px;
     width: 120px;
   }
 
   .mask-5 {
-    top: 250px;
+    top: 550px;
     right: 20px;
+    width: 150px;
+  }
+  .mask-6 {
+    bottom: 0px;
+    height: 120px;
+    left: 20px;
     width: 150px;
   }
 }

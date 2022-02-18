@@ -8,14 +8,10 @@ export const Conoceme = () => {
     <>
       <div id="home" className="section-conoceme">
         <div className="section-descripcion">
-          <img
-            className="imagen-fondo"
-            src="/images/bg-img.jpg"
-            alt="imagen-fondo"
-          />
+          <div className="imagen-fondo"></div>
           <div className="contenedor-texto-descripcion">
             <div className="texto-descripcion">
-              <h1>Mario Conti</h1>
+              <h1>MARIO CONTI</h1>
               <h2>
                 DESARROLLADOR WEB <span>FRONTEND </span>{" "}
               </h2>
@@ -28,7 +24,7 @@ export const Conoceme = () => {
                   duration={1000}
                   className="boton-link bg-btn-1"
                 >
-                  Conóceme
+                  CONÓCEME
                 </Link>
                 <Link
                   to="contacto"
@@ -38,7 +34,7 @@ export const Conoceme = () => {
                   duration={1000}
                   className="boton-link bg-btn-2 btn-text"
                 >
-                  Contactáme
+                  CONTÁCTAME
                 </Link>
               </div>
             </div>

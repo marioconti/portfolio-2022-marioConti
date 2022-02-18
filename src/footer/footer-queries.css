@@ -1,6 +1,15 @@
 @media screen and (max-width: 899px) {
   /* SECCION FOOTER */
 
+  .contenedor-footer {
+    background-color: #fff;
+    background-image: url(../../public/images/waves.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 33rem;
+    width: 100%;
+  }
+
   .section-footer {
     width: 100%;
     height: auto;
@@ -8,16 +17,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 42rem;
+    height: 33rem;
   }
   /* //================================================== */
   /* INFO DE CONTACTO */
+  .info-contacto h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
   .info-contacto {
     width: auto;
     margin-left: 0;
     margin-top: 0rem;
     width: 85%;
     margin-bottom: 0rem;
+  }
+
+  .info-contacto p {
+    font-size: 18px;
   }
   /* //================================================== */
   /* SVGS */
@@ -27,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0rem 4rem;
+    margin: 4rem 0rem 4rem;
   }
 
   .svgFooter {

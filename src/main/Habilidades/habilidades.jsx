@@ -8,11 +8,11 @@ export const Tecnologias = () => {
     <>
       <div id="habilidades" className="container-section-habilidades">
         <div className="mask-habilidades-1"></div>
-        <p>Tecnologías</p>
+        <h2>TECNOLOGÍAS</h2>
         <div className="section-habilidades">
           <ListadoHabilidades />
         </div>
-      </div>
+      </div>{" "}
     </>
   );
 };
@@ -41,6 +41,7 @@ const CardHabilidad = ({ imagenHabilidad, nameHabilidad }) => {
           alt={nameHabilidad}
           title={nameHabilidad}
         />
+        <h3>{nameHabilidad}</h3>
       </div>
     </>
   );

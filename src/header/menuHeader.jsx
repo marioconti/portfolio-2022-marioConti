@@ -5,16 +5,6 @@ export const MenuHeader = ({ navClassB }) => {
   return (
     <div className={`nav-sections ${navClassB}`}>
       <Link
-        to="conoceme"
-        spy={true}
-        smooth={true}
-        offset={-30}
-        duration={1000}
-        className={`link-section ${navClassB}`}
-      >
-        CONÓCEME
-      </Link>
-      <Link
         to="portfolio"
         spy={true}
         smooth={true}
@@ -33,6 +23,16 @@ export const MenuHeader = ({ navClassB }) => {
         className={`link-section ${navClassB}`}
       >
         HABILIDADES
+      </Link>
+      <Link
+        to="conoceme"
+        spy={true}
+        smooth={true}
+        offset={-30}
+        duration={1000}
+        className={`link-section ${navClassB}`}
+      >
+        CONÓCEME
       </Link>
       <Link
         to="contacto"

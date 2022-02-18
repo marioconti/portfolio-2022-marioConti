@@ -1,19 +1,24 @@
 .proyectos-container {
-  background-color: #2a2a2a;
+  background-color: #00a78e;
+  height: 650px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
 }
 
 .carousel-proyectos-container {
-  height: 600px;
   margin: 0 auto;
   width: 75%;
 }
 
 .carousel-proyectos-container .section-title {
-  border-bottom: 3px solid #08ce66;
+  border-bottom: 3px solid #2c3953;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 3.5em;
+  font-weight: 800;
+  font-size: 55px;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .card-container {
@@ -28,20 +33,19 @@
 }
 
 .image-desktop {
-  height: 400px;
+  height: 450px;
   object-fit: cover;
 }
 
 .image-mobile {
   bottom: 70px;
-  height: 180px;
+  height: 220px;
   left: -20px;
   position: absolute;
   object-fit: cover;
 }
 
 .info-proyecto {
-  margin-left: auto;
   position: relative;
   width: 100%;
 }
@@ -53,7 +57,7 @@
 .nombre-proyecto .proyecto {
   color: #fff;
   display: inline-block;
-  font-size: 2.3em;
+  font-size: 38px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   margin-top: 2rem;
@@ -63,22 +67,22 @@
 }
 
 .descripcion-proyecto {
-  color: #fff;
+  color: #2c3953;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: right;
   margin-left: auto;
   margin-top: auto;
-  width: 60%;
+  width: 66%;
 }
 
 .descripcion-dos {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0cce67fb;
-  color: #ffffff;
+  background-color: #fff;
+  color: #00a78e;
   font-weight: bold;
   font-size: 15px;
   height: 58px;
@@ -92,26 +96,28 @@
 .link-proyecto {
   bottom: 0;
   background-size: 200%;
+  background-image: linear-gradient(to right, #2c3953 50%, #fff 50%);
   background-repeat: no-repeat;
   background-position: left;
-  background-color: #08ce66;
-  color: #2e2c31;
+  border: solid 3px #2c3953;
+  color: #fff;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: bold;
-  height: 50px;
-  line-height: 3.4rem;
+  height: 58px;
+  line-height: 3.6rem;
   position: absolute;
   right: 0;
   text-decoration: none;
   text-align: center;
   transition: 0.3s ease-in-out all;
-  width: 60%;
+  width: 66%;
   z-index: 10;
 }
 
 .link-proyecto:hover {
-  color: #fff;
-  padding-right: 2rem;
+  background-position: right;
+  color: #2c3953;
+  padding-left: 1rem;
 }

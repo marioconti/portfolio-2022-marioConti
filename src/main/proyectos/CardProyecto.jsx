@@ -17,7 +17,7 @@ export const CardProyecto = ({ proyectos }) => {
         <p className="descripcion-proyecto">{descripcionUno}</p>
         <p className="descripcion-proyecto descripcion-dos">{descripcionDos}</p>
         <a href={link} className="link-proyecto" target="_blank">
-          Visitar el proyecto
+          VISITAR PROYECTO
         </a>
       </div>
     </div>

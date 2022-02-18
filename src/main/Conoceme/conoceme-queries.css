@@ -1,59 +1,42 @@
 @media screen and (max-width: 899px) {
   .section-descripcion {
-    flex-direction: column;
-    height: 40rem;
+    width: 100%;
+  }
+
+  .imagen-fondo {
+    display: none;
+  }
+
+  .contenedor-texto-descripcion {
+    width: 90%;
   }
 
   .texto-descripcion {
-    margin: 0 auto;
-    width: 87%;
+    margin-right: 0 auto;
+    width: 100%;
   }
 
   .texto-descripcion h1 {
-    font-size: 3.95em;
-    line-height: 1.2em;
+    font-size: 5.5em;
+    margin-top: 8rem;
   }
 
   .texto-descripcion h2 {
-    font-size: 1.9em;
-    font-weight: 100;
-    margin-top: 1rem;
-  }
-
-  .texto-descripcion h3 {
-    font-weight: 200;
-    font-size: 1.5em;
-    margin-top: 5.5rem;
+    font-size: 2.5em;
+    margin-top: 20px;
   }
 
   .links-personal {
     flex-direction: column;
-    height: 7rem;
+    height: auto;
     justify-content: center;
-    margin-top: 4rem;
+    margin: 0 auto;
+    margin-top: 2rem;
     width: 100%;
   }
 
   .boton-link {
-    font-size: 1.2em;
-    line-height: 3em;
-  }
-  .bg-btn-1,
-  .bg-btn-2 {
-    padding-left: 0;
-    text-align: center;
-  }
-
-  .bg-btn-1:hover,
-  .bg-btn-2:hover {
-    padding-left: 0rem;
-  }
-
-  .bg-btn-1 {
-    margin-right: 4rem;
-  }
-
-  .bg-btn-2 {
-    margin-left: 2rem;
+    font-size: 17px;
+    width: 100%;
   }
 }

@@ -6,19 +6,6 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
     <div className="menu-desplegable">
       <div className="contenedor-links">
         <Link
-          to="conoceme"
-          spy={true}
-          smooth={true}
-          offset={-30}
-          duration={1000}
-          className={`link-section margin`}
-          onClick={() => {
-            setMenuActive(false);
-          }}
-        >
-          CONÓCEME
-        </Link>
-        <Link
           to="portfolio"
           spy={true}
           smooth={true}
@@ -31,6 +18,7 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
         >
           PORTFOLIO
         </Link>
+
         <Link
           to="habilidades"
           spy={true}
@@ -43,6 +31,19 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
           }}
         >
           HABILIDADES
+        </Link>
+        <Link
+          to="conoceme"
+          spy={true}
+          smooth={true}
+          offset={-30}
+          duration={1000}
+          className={`link-section margin`}
+          onClick={() => {
+            setMenuActive(false);
+          }}
+        >
+          CONÓCEME
         </Link>
         <Link
           to="contacto"
