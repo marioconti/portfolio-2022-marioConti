@@ -3,6 +3,14 @@
     text-align: center;
   }
 
+  .proyectos-container {
+    background-color: #00a78e;
+    height: 590px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+  }
+
   .carousel-proyectos-container {
     display: flex;
     flex-direction: column;
@@ -11,6 +19,10 @@
   }
 
   .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 30rem;
   }
 
@@ -21,56 +33,56 @@
   }
 
   .imagenes-proyecto {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    position: absolute;
+    height: 50%;
+    margin-bottom: auto;
     width: 100%;
   }
 
   .image-desktop {
     filter: none;
-    height: 150px;
+    height: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 3rem;
   }
 
   .image-mobile {
-    height: 80px;
+    height: 100px;
     position: unset;
     margin: 0 auto;
     margin-top: -100px;
-    margin-left: 10px;
+    margin-left: -10px;
   }
 
   .info-proyecto {
     margin: 0 auto;
-    height: 10px;
+    height: 50%;
   }
 
   .descripcion-proyecto {
     display: none;
   }
 
-  .descripcion-dos {
-    display: none;
-  }
-
   .nombre-proyecto .proyecto {
-    font-size: 25px;
-    margin-top: 0rem;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    margin-bottom: auto;
+    width: 100%;
     text-align: center;
   }
 
   .link-proyecto {
-    font-size: 10px;
-    font-weight: 600;
     height: 50px;
-    line-height: 3.1rem;
+    line-height: 3.3rem;
+    right: unset;
+    width: 100%;
     z-index: 10;
-    position: unset;
   }
   .link-proyecto:hover {
     padding-right: 0rem;
