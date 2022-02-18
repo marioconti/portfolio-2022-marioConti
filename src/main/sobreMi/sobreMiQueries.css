@@ -1,6 +1,6 @@
 @media screen and (max-width: 899px) {
   .sobre-mi-main {
-    height: 73rem;
+    height: 68rem;
     display: flex;
   }
   .sobre-mi-container {
@@ -37,11 +37,12 @@
 
   .texto-presentación h1 {
     text-align: left;
+    font-size: 34px;
     width: 100%;
   }
 
   .texto-presentación p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-top: 25px;
   }
 
@@ -57,13 +58,6 @@
   /* 3d mask */
   .mask-background {
     display: none;
-  }
-
-  .mask-1 {
-    height: 100px;
-    width: 140px;
-    bottom: 0;
-    left: 100px;
   }
 
   .mask-2 {
@@ -87,5 +81,11 @@
     height: 120px;
     left: 20px;
     width: 150px;
+  }
+  .mask-1,
+  .mask-2,
+  .mask-3,
+  .mask-5 {
+    display: none;
   }
 }
