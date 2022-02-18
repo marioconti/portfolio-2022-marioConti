@@ -36,7 +36,7 @@ export const Header = () => {
   const fixNav = () => {
     const nav = document.querySelector(".section-header");
 
-    if (window.scrollY > nav.offsetHeight + 50) {
+    if (window.scrollY > nav.offsetHeight + 5) {
       // sumar un estado para que aparezca un boton de back top cuando pase esto tmb
       setNavClass("active");
       setNavClassB("display-none");
