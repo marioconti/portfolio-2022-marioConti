@@ -11,7 +11,7 @@ export const Footer = () => {
           <div className="info-contacto">
             <h2>CONTACTO</h2>
             <p>
-              <span>UBICACIÓN: </span> San Miguel de Tucumán, Arngentina
+              <span>UBICACIÓN: </span> San Miguel de Tucumán, Argentina
             </p>
             <p>
               <span>NÚMERO DE CONTACTO: </span> (+54 9 ) 3816599099
