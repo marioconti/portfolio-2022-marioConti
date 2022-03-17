@@ -28,7 +28,7 @@
 
 .section-habilidades {
   align-items: center;
-  height: 20rem;
+  height: 50vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

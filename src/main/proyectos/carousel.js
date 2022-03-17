@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./proyectos.css";
 import { arrayProyectos } from "./arrayProyectos";
 import { CardProyecto } from "./CardProyecto";
-
 import Slider from "react-slick";
 
 export default class SimpleSlider extends Component {
@@ -15,7 +14,7 @@ export default class SimpleSlider extends Component {
       fade: true,
       speed: 500,
       slidesToShow: 3,
-      initialSlide: 0,
+      initialSlide: 4,
       responsive: [
         {
           breakpoint: 1024,

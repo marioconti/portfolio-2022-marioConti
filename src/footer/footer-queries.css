@@ -44,15 +44,20 @@
   /* SVGS */
 
   .contenedor-svgs {
-    width: 100%;
+    width: 85%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 4rem 0rem 4rem;
   }
 
+  .contenedor-svgs a {
+    height: 3rem;
+    margin: 0px;
+  }
+
   .svgFooter {
-    margin: 0 1rem;
+    object-fit: cover;
   }
   /* //================================================== */
 }

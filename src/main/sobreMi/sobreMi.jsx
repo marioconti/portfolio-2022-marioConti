@@ -5,21 +5,15 @@ export const SobreMi = () => {
   return (
     <div className="sobre-mi-main">
       <div id="conoceme" className="sobre-mi-container">
-        <div className="mask-1"></div>
-        <div className="mask-5"></div>
         <div className="imagen-mario">
-          <div className="mask-4"></div>
-          <div className="mask-6"></div>
           <div className="fondo-imagen"></div>
           <img
-          className="imagen-perfil"
+            className="imagen-perfil"
             src="images/foto-mario-conti.jpg"
             alt=""
           />
         </div>
         <div className="texto-presentación">
-          <div className="mask-2"></div>
-          <div className="mask-3"></div>
           <h1>UN POCO DE MÍ</h1>
           <p>
             Comencé a programar como autodidacta.

@@ -68,7 +68,7 @@
 
 /* ANIMATION UNDERLINE */
 .link-section:after {
-  background: #2C3953;
+  background: #2c3953;
   border-radius: 5px;
   content: "";
   display: flex;

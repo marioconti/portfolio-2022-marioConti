@@ -39,4 +39,14 @@ export const arrayProyectos = [
     descripcionDos: "HTML - CSS",
     link: "https://09xs4.csb.app/",
   },
+  {
+    id: "5",
+    imagenDesktop: "images/v1-desktop.png",
+    imagenMobile: "images/v1-mobile.png",
+    name: "V1 ARQUITECTURA",
+    descripcionUno:
+      "Landing page para estudio de arquitectura. Cuenta con galería de proyectos e información sobre Workshops.",
+    descripcionDos: "REACT JS - HTML - CSS -JAVASCRIPT",
+    link: "https://v1.com.ar/",
+  },
 ];

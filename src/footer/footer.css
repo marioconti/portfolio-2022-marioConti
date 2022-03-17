@@ -4,7 +4,7 @@
   background-image: url(../../public/images/waves.svg);
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 36rem;
+  height: 70vh;
   width: 100%;
 }
 .section-footer {
@@ -59,10 +59,21 @@
   width: 50%;
 }
 
-.svgFooter {
+.contenedor-svgs a {
   margin: 0 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.svgFooter {
   height: 3rem;
-  transition: 0.1s ease-in-out all;
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.contenedor-svgs a:hover {
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 /* //================================================== */

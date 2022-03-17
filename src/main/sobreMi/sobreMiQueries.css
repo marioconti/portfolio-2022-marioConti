@@ -21,8 +21,8 @@
 
   .imagen-perfil {
     height: 200px;
-    border-radius: 20px;
     position: unset;
+    border: none;
     left: unset;
   }
 
@@ -46,46 +46,4 @@
     margin-top: 25px;
   }
 
-  /* puntitos */
-  .mask-4 {
-    height: 200px;
-    background-size: 28px 28px;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-  }
-
-  /* 3d mask */
-  .mask-background {
-    display: none;
-  }
-
-  .mask-2 {
-    height: 200px;
-    bottom: 0px;
-  }
-
-  .mask-3 {
-    height: 100px;
-    top: 500px;
-    width: 120px;
-  }
-
-  .mask-5 {
-    top: 550px;
-    right: 20px;
-    width: 150px;
-  }
-  .mask-6 {
-    bottom: 0px;
-    height: 120px;
-    left: 20px;
-    width: 150px;
-  }
-  .mask-1,
-  .mask-2,
-  .mask-3,
-  .mask-5 {
-    display: none;
-  }
 }

@@ -40,7 +40,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1.4em;
     font-weight: bold;
-    height: 240px;
+    height: 50vh;
     position: absolute;
     top: 5.6rem;
     text-decoration: none;
@@ -53,14 +53,15 @@
   }
 
   .contenedor-links {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
+    justify-content: space-evenly;
+    height: 50vh;
   }
 
   .margin {
-    margin: 5px 0;
+    margin: 0;
   }
 
   .link-section:after {

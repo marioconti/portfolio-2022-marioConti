@@ -2,10 +2,11 @@
   /* background-color: rgb(255, 255, 255); */
   display: flex;
   justify-content: center;
-  height: 42rem;
+  height: 100vh;
   position: relative;
   user-select: none;
   width: 100%;
+  align-items: center;
 }
 
 .imagen-fondo {
@@ -44,7 +45,7 @@
   font-weight: 800;
   font-size: 6.5em;
   line-height: 1.2em;
-  margin-top: 8rem;
+  margin-top: 4rem;
   width: auto;
 }
 
