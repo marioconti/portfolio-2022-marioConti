@@ -72,10 +72,11 @@
   border-radius: 5px;
   content: "";
   display: flex;
-  height: 2px;
   transform: scaleX(0);
-  transition: 0.2s linear;
+  transition: all 0.2s linear;
   visibility: hidden;
+  /* con 2px se rompe, el resto no */
+  height: 3px;
   width: 100%;
 }
 
