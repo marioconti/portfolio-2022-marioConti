@@ -23,6 +23,14 @@ export const Conoceme = () => {
                   offset={-30}
                   duration={1000}
                   className="boton-link bg-btn-1"
+                  data-aos="fade-left"
+                  data-aos-offset="-1500"
+                  data-aos-delay="0"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
                 >
                   CONÓCEME
                 </Link>
@@ -33,6 +41,14 @@ export const Conoceme = () => {
                   offset={50}
                   duration={1000}
                   className="boton-link bg-btn-2 btn-text"
+                  data-aos="fade-right"
+                  data-aos-offset="-1500"
+                  data-aos-delay="0"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease"
+                  data-aos-mirror="true"
+                  data-aos-once="true"
+                  data-aos-anchor-placement="top-center"
                 >
                   CONTÁCTAME
                 </Link>

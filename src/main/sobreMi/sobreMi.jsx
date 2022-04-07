@@ -5,7 +5,17 @@ export const SobreMi = () => {
   return (
     <div className="sobre-mi-main">
       <div id="conoceme" className="sobre-mi-container">
-        <div className="imagen-mario">
+        <div
+          className="imagen-mario"
+          data-aos="fade-left"
+          data-aos-offset="-200"
+          data-aos-delay="0"
+          data-aos-duration="1500"
+          data-aos-easing="ease"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="fondo-imagen"></div>
           <img
             className="imagen-perfil"
@@ -14,12 +24,31 @@ export const SobreMi = () => {
           />
         </div>
         <div className="texto-presentación">
-          <h1>UN POCO DE MÍ</h1>
-          <p>
-            Comencé a programar como autodidacta.
-            <br />
-            Me apasioné por el<span className="bold"> Frontend</span> al ver su
-            potencial creativo.
+          <h1
+            data-aos="fade-right"
+            data-aos-offset="-200"
+            data-aos-delay="0"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+          >
+            UN POCO DE MÍ
+          </h1>
+          <p
+            data-aos="fade-up"
+            data-aos-offset="-200"
+            data-aos-delay="0"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+          >
+            Comencé a programar como autodidacta. Me apasionsé por el
+            <span className="bold"> Frontend</span> al ver su potencial
+            creativo.
             <br />
             <br />
             He aprendido a programar con <span className="bold">

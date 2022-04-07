@@ -8,7 +8,18 @@ export const Tecnologias = () => {
     <>
       <div id="habilidades" className="container-section-habilidades">
         <div className="mask-habilidades-1"></div>
-        <h2>TECNOLOGÍAS</h2>
+        <h2
+          data-aos="fade-up"
+          data-aos-offset="-200"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-center"
+        >
+          TECNOLOGÍAS
+        </h2>
         <div className="section-habilidades">
           <ListadoHabilidades />
         </div>
@@ -22,6 +33,14 @@ const ListadoHabilidades = () => {
     return (
       <div className="listado-tecnologias" key={svg.nameHabilidad}>
         <CardHabilidad
+          data-aos="fade-up"
+          data-aos-offset="-200"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-easing="ease"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-center"
           nameHabilidad={svg.nameHabilidad}
           imagenHabilidad={svg.imagenHabilidad}
         />
@@ -34,7 +53,17 @@ const ListadoHabilidades = () => {
 const CardHabilidad = ({ imagenHabilidad, nameHabilidad }) => {
   return (
     <>
-      <div className="contenedor-svg">
+      <div
+        className="contenedor-svg"
+        data-aos="fade-up"
+        data-aos-offset="-200"
+        data-aos-delay="0"
+        data-aos-duration="1500"
+        data-aos-easing="ease"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+      >
         <img
           className="image-habilidad"
           src={imagenHabilidad}

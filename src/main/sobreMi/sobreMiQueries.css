@@ -22,7 +22,8 @@
   .imagen-perfil {
     height: 200px;
     position: unset;
-    border: none;
+    border-left: solid 10px #2c3953;
+    border-bottom: solid 10px #2c3953;
     left: unset;
   }
 
@@ -43,7 +44,7 @@
 
   .texto-presentación p {
     font-size: 1.1em;
+    font-weight: 400;
     margin-top: 25px;
   }
-
 }

@@ -9,19 +9,46 @@ export const Footer = () => {
       <div className="contenedor-footer">
         <div id="contacto" className="section-footer">
           <div className="info-contacto">
-            <h2>CONTACTO</h2>
-            <p>
+            <h2
+              className="contenedor-svg"
+              data-aos="fade-left"
+              data-aos-offset="-200"
+              data-aos-delay="0"
+              data-aos-duration="1500"
+              data-aos-easing="ease"
+              data-aos-mirror="true"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-center"
+            >
+              CONTACTO
+            </h2>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
               <span>UBICACIÓN: </span> San Miguel de Tucumán, Argentina
             </p>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
               <span>NÚMERO DE CONTACTO: </span> (+54 9 ) 3816599099
             </p>
-            <p>
+            <p
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
               <span>EMAIL: </span> marioconti91@gmail.com
             </p>
           </div>
           <div className="contenedor-svgs">
             <a
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="250"
               target="_blank"
               href="https://www.linkedin.com/in/mario-augusto-conti/"
             >
@@ -33,7 +60,13 @@ export const Footer = () => {
               />
             </a>
 
-            <a target="_blank" href="https://www.github.com/marioconti">
+            <a
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+              target="_blank"
+              href="https://www.github.com/marioconti"
+            >
               <img
                 className="svgFooter"
                 src="../../images/linkGithub.svg"
@@ -41,7 +74,13 @@ export const Footer = () => {
               />
             </a>
 
-            <a target="_blank" href="https://www.facebook.com/mario.conti.520/">
+            <a
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="750"
+              target="_blank"
+              href="https://www.facebook.com/mario.conti.520/"
+            >
               {" "}
               <img
                 className="svgFooter bg-withe-svg"
@@ -51,6 +90,9 @@ export const Footer = () => {
             </a>
 
             <a
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1000"
               target="_blank"
               href="https://www.instagram.com/mario.conti/?hl=es"
             >

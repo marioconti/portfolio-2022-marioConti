@@ -3,15 +3,15 @@ import { Link } from "react-scroll";
 
 export const MenuHamburguesa = ({ setMenuActive }) => {
   return (
-    <div className="menu-desplegable">
-      <div className="contenedor-links">
+    <div className={`menu-desplegable `}>
+      <div className={`contenedor-links `}>
         <Link
           to="portfolio"
           spy={true}
           smooth={true}
           offset={10}
           duration={1000}
-          className={`link-section margin`}
+          className={`link-section`}
           onClick={() => {
             setMenuActive(false);
           }}
@@ -25,7 +25,7 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
           smooth={true}
           offset={20}
           duration={1000}
-          className={`link-section margin`}
+          className={`link-section`}
           onClick={() => {
             setMenuActive(false);
           }}
@@ -38,7 +38,7 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
           smooth={true}
           offset={-30}
           duration={1000}
-          className={`link-section margin`}
+          className={`link-section`}
           onClick={() => {
             setMenuActive(false);
           }}
@@ -51,7 +51,7 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
           smooth={true}
           offset={50}
           duration={1000}
-          className={`link-section margin`}
+          className={`link-section`}
           onClick={() => {
             setMenuActive(false);
           }}
@@ -59,12 +59,12 @@ export const MenuHamburguesa = ({ setMenuActive }) => {
           CONTACTO
         </Link>
         <a
-        download="CV Mario Conti"
-        href="/assets/CV Mario Conti.pdf"
-        className={`link-section margin`}
-      >
-        CV
-      </a>
+          download="CV Mario Conti"
+          href="/assets/CV Mario Conti.pdf"
+          className={`link-section`}
+        >
+          CV
+        </a>
       </div>
     </div>
   );

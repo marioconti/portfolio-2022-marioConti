@@ -43,10 +43,20 @@ export const arrayProyectos = [
     id: "5",
     imagenDesktop: "images/v1-desktop.png",
     imagenMobile: "images/v1-mobile.png",
-    name: "V1 ARQUITECTURA",
+    name: "V1",
     descripcionUno:
-      "Landing page para estudio de arquitectura. Cuenta con galería de proyectos e información sobre Workshops.",
+      "Landing page para V1 estudio de arquitectura. Cuenta con galería de proyectos e información sobre Workshops.",
     descripcionDos: "REACT JS - HTML - CSS - JAVASCRIPT",
     link: "https://v1.com.ar/",
+  },
+  {
+    id: "6",
+    imagenDesktop: "images/wedding-desktop.png",
+    imagenMobile: "images/wedding-mobile.png",
+    name: "INVITACION DIGITAL",
+    descripcionUno:
+      "Invitación digital para casamiento/matrimonio. Cuenta con música al navegar, link a formulario para confirmar asistencia, información de ubicaciones y horarios, fotos y link a una playlist colaborativa",
+    descripcionDos: "REACT JS - HTML - CSS - JAVASCRIPT",
+    link: "https://bespoke-begonia-211063.netlify.app/",
   },
 ];

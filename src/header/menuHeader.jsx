@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-// import { cv } from "../../public/assets/cv";
 
 export const MenuHeader = ({ navClassB }) => {
   return (

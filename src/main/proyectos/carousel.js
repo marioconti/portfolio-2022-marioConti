@@ -34,7 +34,19 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="carousel-proyectos-container">
-        <h2 className="section-title">PORTFOLIO</h2>
+        <h2
+          className="section-title"
+          data-aos="fade-left"
+          data-aos-offset="-300"
+          data-aos-delay="0"
+          data-aos-duration="2000"
+          data-aos-easing="ease"
+          data-aos-mirror="true"
+          data-aos-once="true"
+          data-aos-anchor-placement="top-center"
+        >
+          PORTFOLIO
+        </h2>
         <Slider {...settings}>
           {arrayProyectos.map((proyectos) => {
             return (

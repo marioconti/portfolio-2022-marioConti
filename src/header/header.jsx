@@ -50,6 +50,7 @@ export const Header = () => {
 
   return (
     <>
+      {menuActive && <MenuHamburguesa setMenuActive={setMenuActive} />}
       <div className={`section-header ${navClass}`}>
         <div className="contenedor-nav">
           <Link
@@ -64,7 +65,7 @@ export const Header = () => {
           </Link>
           {hamburguesaActive ? (
             <div
-              className={`container-hamburguesa ${navClassB}`}
+              className={`container-hamburguesa ${navClassB}  `}
               onClick={() => setMenuActive(!menuActive)}
             >
               <img
@@ -76,7 +77,7 @@ export const Header = () => {
           ) : (
             <MenuHeader navClassB={navClassB} />
           )}
-        </div>{" "}
+        </div>
       </div>
       <Link to="home" spy={true} smooth={true} offset={-10} duration={1000}>
         <img
@@ -85,7 +86,6 @@ export const Header = () => {
           alt="imagen casa"
         />
       </Link>
-      {menuActive && <MenuHamburguesa setMenuActive={setMenuActive} />}
     </>
   );
 };

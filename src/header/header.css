@@ -62,7 +62,7 @@
   margin-top: 15px;
   padding: 0 0.5rem;
   outline: none;
-  text-decoration: none;
+  list-style-type: none;
   scroll-behavior: inherit;
 }
 
