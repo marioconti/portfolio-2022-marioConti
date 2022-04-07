@@ -67,19 +67,7 @@ export const CardProyecto = ({ proyectos }) => {
         >
           {descripcionDos}
         </p>
-        <a
-          href={link}
-          className="link-proyecto"
-          target="_blank"
-          data-aos="fade-right"
-          data-aos-offset="-300"
-          data-aos-delay="0"
-          data-aos-duration="2000"
-          data-aos-easing="ease"
-          data-aos-mirror="true"
-          data-aos-once="true"
-          data-aos-anchor-placement="top-center"
-        >
+        <a href={link} className="link-proyecto" target="_blank">
           VISITAR
         </a>
       </div>

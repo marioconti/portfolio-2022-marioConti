@@ -11,8 +11,26 @@ export const Conoceme = () => {
           <div className="imagen-fondo"></div>
           <div className="contenedor-texto-descripcion">
             <div className="texto-descripcion">
-              <h1>MARIO CONTI</h1>
-              <h2>
+              <h1
+                data-aos="fade-right"
+                data-aos-offset="-800"
+                data-aos-delay="0"
+                data-aos-duration="2000"
+                data-aos-easing="ease"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-center"
+              >
+                MARIO CONTI
+              </h1>
+              <h2
+                data-aos="fade-left"
+                data-aos-offset="-800"
+                data-aos-delay="0"
+                data-aos-duration="2000"
+                data-aos-easing="ease"
+                data-aos-mirror="true"
+                data-aos-anchor-placement="top-center"
+              >
                 DESARROLLADOR WEB <span>FRONTEND </span>{" "}
               </h2>
               <div className="links-personal">
@@ -23,14 +41,6 @@ export const Conoceme = () => {
                   offset={-30}
                   duration={1000}
                   className="boton-link bg-btn-1"
-                  data-aos="fade-left"
-                  data-aos-offset="-1500"
-                  data-aos-delay="0"
-                  data-aos-duration="2000"
-                  data-aos-easing="ease"
-                  data-aos-mirror="true"
-                  data-aos-once="true"
-                  data-aos-anchor-placement="top-center"
                 >
                   CONÓCEME
                 </Link>
@@ -41,14 +51,6 @@ export const Conoceme = () => {
                   offset={50}
                   duration={1000}
                   className="boton-link bg-btn-2 btn-text"
-                  data-aos="fade-right"
-                  data-aos-offset="-1500"
-                  data-aos-delay="0"
-                  data-aos-duration="2000"
-                  data-aos-easing="ease"
-                  data-aos-mirror="true"
-                  data-aos-once="true"
-                  data-aos-anchor-placement="top-center"
                 >
                   CONTÁCTAME
                 </Link>
