@@ -52,7 +52,6 @@ export const Footer = () => {
               target="_blank"
               href="https://www.linkedin.com/in/mario-augusto-conti/"
             >
-              {" "}
               <img
                 className="svgFooter"
                 src="../../images/linkLinkedin.svg"
