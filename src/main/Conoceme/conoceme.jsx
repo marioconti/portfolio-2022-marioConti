@@ -20,7 +20,7 @@ export const Conoceme = () => {
                 data-aos-mirror="true"
                 data-aos-anchor-placement="top-center"
               >
-                MARIO CONTI
+                MARIO<br/> CONTI
               </h1>
               <h2
                 data-aos="fade-left"
