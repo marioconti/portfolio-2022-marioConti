@@ -10,7 +10,6 @@ export const Footer = () => {
         <div id="contacto" className="section-footer">
           <div className="info-contacto">
             <h2
-              className="contenedor-svg"
               data-aos="fade-left"
               data-aos-offset="-200"
               data-aos-delay="0"
